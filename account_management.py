@@ -20,6 +20,6 @@ class Account:
     
 
 
-acc1 = Account(10000,12345)
-acc1.debit(2500)
-acc1.credit(2000)
+acc1 = Account(10000,12345)        # Create an account with an initial balance of 10000 and account number 12345
+acc1.debit(2500)                    # Debit 2500 from the account
+acc1.credit(2000)                   # Credit 2000 to the account
